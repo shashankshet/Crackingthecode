@@ -21,7 +21,7 @@ class StringPermutation
 	}
 	static boolean arepermutation(String s1, String s2)
 	{
-		//length os strings
+		//length of strings
 		int n1 = s1.length();
 		int n2 = s2.length();
 		//if unequal length then obviously they are not permutation of each other
