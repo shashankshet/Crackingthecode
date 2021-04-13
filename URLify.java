@@ -14,7 +14,7 @@ public static String getURLValue(String str, int trueLength) {
 	StringBuilder result = new StringBuilder(); // String builder is a mutable sequence of characters, it is used when we want to modify a string in java.
 	for(int i =0; i < trueLength; i++) {
 		char value = str.charAt(i);
-		if(Character.isAlphabetic(value)) {
+		if(Character.isAlphabetic(value)) { //isAlphabetic() returns true if the char is an alphabet, else false
 			result.append(value);
 		}
 		else
